@@ -2,8 +2,12 @@
     font-family: "Roboto", sans-serif;
 }
 
+body {
+    margin: 0px;
+}
+
 .container {
-    padding: 40px;
+    padding: 50px 250px;
 }
 
 header, .hero, footer {
@@ -15,10 +19,16 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding-left: 40px;
-    padding-right: 40px;
+    padding-left: 250px;
+    padding-right: 250px;
     padding-top: 15px;
     margin: 0px;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
 }
 
 .text p, a {
@@ -27,10 +37,8 @@ header {
     text-decoration: none;
 }
 
-ul {
-    display: flex;
-    list-style: none;
-    gap: 10px;
+a:hover {
+    color: #787b7e;
 }
 
 .header-logo {
@@ -45,8 +53,13 @@ ul {
     gap: 20px;
 }
 
+.text {
+    margin-right: 0px;
+    max-width: 500px;
+}
+
 .hero img {
-    max-width: 400px;
+    max-width: 500px;
     border-radius: 10px;
     margin: 10px;
 }
@@ -59,6 +72,8 @@ h1 {
 
 h2 {
     text-align: center;
+    margin-bottom: 50px;
+    font-size: 38px;
 }
 
 .blocs {
@@ -66,18 +81,23 @@ h2 {
     justify-content: space-around;
     align-items: center;
     text-align: center;
-    gap: 20px;
+    gap: 50px;
 }
 
 .placeholder {
     border: 2px solid #3882F6;
     border-radius: 10px;
     min-width: 40px;
-    min-height: 100px;
+    min-height: 150px;
+}
+
+.photo-text {
+    max-width: 200px;
 }
 
 .grey {
     background-color: #e5e7eb;
+    
 }
 
 .name {
@@ -93,7 +113,8 @@ h2 {
 
 .cta-outside {
     background-color: white;
-    padding: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 .cta-inside {
@@ -104,10 +125,12 @@ h2 {
     justify-content: space-around;
     align-items: center;
     color: white;
+    margin-left: 250px;
+    margin-right: 250px;
 }
 
 strong {
-    font-size: 18px;
+    font-size: 22px;
     font-weight: 900;
 }
 
@@ -116,8 +139,13 @@ button {
     border-radius: 10px;
     padding: 10px 15px;
     color: white;
-    font-size: 14px;
+    font-size: 16px;
     border: 0;
+}
+
+button:hover {
+    color: #3882F6;
+    background-color: white;
 }
 
 .button-cta {
